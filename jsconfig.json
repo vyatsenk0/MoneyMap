@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "baseUrl": "src",
+      "paths": {
+        "@styles/*": ["styles/*"],
+        "@components/*": ["frontend/components/*"],
+        "@pages/*": ["frontend/pages/*"]
+      }
+    },
+    "include": ["src"]
+  }
+  

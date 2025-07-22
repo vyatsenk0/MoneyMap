@@ -1,0 +1,94 @@
+.messagePaper {
+  display: flex;
+  padding: var(--mantine-spacing-sm);
+  margin-bottom: 12px;
+  color: #333;
+  border-radius: 16px;
+  max-width: 80%;
+}
+
+.userMessage {
+  justify-self: flex-end;
+  background-color: color-mix(in srgb, var(--mantine-color-blue-5), transparent 0%);
+}
+
+.assistantMessage {
+  justify-self: flex-start;
+  background-color: color-mix(in srgb, var(--mantine-color-gray-9), transparent 85%);
+}
+
+.hidden {
+  display: none;
+}
+
+.loadingText {
+  font-style: italic;
+  color: #888;
+}
+
+.textarea {
+  width: 100%;
+  resize: none;
+}
+
+.textareaSection {
+  margin: 10px 10px;
+  align-items: flex-end;
+}
+
+.textareaInput {
+  background-color: var(--mantine-color-gray-2);
+  border: none;
+  box-shadow: var(--mantine-shadow-md);
+}
+
+.textareaInput::placeholder {
+  color: var(--mantine-color-dark-0)
+}
+
+.sendButton {
+  margin-top: 8px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.newChatButton {
+  flex: 1;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.saveChatButton {
+  flex: 1;
+  padding: 10px 16px;
+  border-radius: 8px;
+  background-color: #34a853;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.savedChatsArea {
+  flex: 1;
+  padding: 20px;
+  background-color: #fafafa;
+  overflow-y: auto;
+}
+
+.savedChatButton {
+  flex: 1;
+  text-align: left;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.deleteChatButton {
+  color: gray;
+  size: xs;
+}
