@@ -4,9 +4,7 @@
 # 📖 Overview
 **MoneyMap** is a cross-platform, AI-powered budget assistant built with Electron and React, offering a native desktop experience with seamless integration of cloud-based AI via the OpenAI API.
 It combines smart financial tracking, real-time chart visualizations, personal goal management, and an AI chat assistant — while all user data is stored locally with fast and secure
-SQLite storage to ensure privacy and performance.
-
-Designed with the sleek Mantine UI library, the app delivers both functionality and aesthetic clarity for managing your personal finances.
+SQLite storage to ensure privacy and performance. Designed with the sleek Mantine UI library, the app delivers both functionality and aesthetic clarity for managing your personal finances.
 
 
 
